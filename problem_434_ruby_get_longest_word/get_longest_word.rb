@@ -20,8 +20,5 @@
 # @param {String} s
 # @return {Integer}
 def count_segments(s)
-  regex =  /([a-z]+)[!\b && !\W]?/i
-  s_array = s.scan(regex).flatten
-  s_result = s_array.inject(''){| prev, current | prev.length > current.length ? prev : current}
-  s_result.length
+  s.scan(/\S+/).flatten.length
 end
