@@ -5,7 +5,8 @@
 **My Profile** - https://leetcode.com/ruevaughn/
 
 
-1. [LeetCode](https://leetcode.com](https://leetcode.com)
+1. [
+LeetCode](https://leetcode.com](https://leetcode.com)
 ..* A New Way to Learn LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
 2. I plan to solve one of these at a minimum of 5 days a week, one per day. Can do as many a day or 7 days - pace will be determined by schedule and current free time. Will change if needed, see [Work / Life Balance](https://pragprog.com/book/jkthp/the-healthy-programmer). A book I have read several times and consult frequently.
 3. I plan to select the problem at random, ignoring difficulty.
