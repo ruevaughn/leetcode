@@ -23,7 +23,17 @@ def two_sum(nums, target)
   nums.each do |num|
     result = target - num
     if nums.include? result
-      answer = [nums.index(result), nums.index(num)]
+      num_1_indice = nums.index(result)
+      num_2_indice = nums.index(num)
+      if num_1_indice == num_2_indice
+        num_2_indice = nums.rindex(num)
+        if num_1_indice == num_2_indice
+          num_1_indice = nums.rindex(result)
+        end
+        answer = [num_1_indice, num_2_indice]
+      else
+        answer = [num_1_indice, num_2_indice]
+      end
     end
   end   
   answer
